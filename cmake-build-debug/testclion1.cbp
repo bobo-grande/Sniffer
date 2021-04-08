@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="testclion1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/winpcap/testclion1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;E:/winpcap/testclion1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;E:/winpcap/testclion1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;E:/winpcap/testclion1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;E:/winpcap/testclion1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testclion1">
+				<Option output="E:/winpcap/testclion1/cmake-build-debug/testclion1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/winpcap/testclion1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/winpcap/testclion1/./Include"/>
+					<Add directory="E:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="E:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="E:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;E:/winpcap/testclion1/cmake-build-debug/Makefile&quot;  VERBOSE=1 testclion1"/>
+					<CompileFile command="E:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;E:/winpcap/testclion1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;E:/winpcap/testclion1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;E:/winpcap/testclion1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testclion1/fast">
+				<Option output="E:/winpcap/testclion1/cmake-build-debug/testclion1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/winpcap/testclion1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/winpcap/testclion1/./Include"/>
+					<Add directory="E:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="E:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="E:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;E:/winpcap/testclion1/cmake-build-debug/Makefile&quot;  VERBOSE=1 testclion1/fast"/>
+					<CompileFile command="E:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;E:/winpcap/testclion1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;E:/winpcap/testclion1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;E:/winpcap/testclion1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/winpcap/testclion1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;E:/winpcap/testclion1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;E:/winpcap/testclion1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;E:/winpcap/testclion1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;E:/winpcap/testclion1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/winpcap/testclion1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;E:/winpcap/testclion1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;E:/winpcap/testclion1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;E:/winpcap/testclion1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;E:/winpcap/testclion1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/winpcap/testclion1/main.c">
+			<Option target="testclion1"/>
+		</Unit>
+		<Unit filename="E:/winpcap/testclion1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
