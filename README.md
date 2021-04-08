@@ -1,7 +1,7 @@
 #### Clion配置Winpcap开发环境
 ##### 1. 下载安装winpcap相关文件  
-* 下载winpcap4.1.3：https://www.winpcap.org/install/default.htm，安装程序放到任意目录下，运行该安装程序即可  
-* 下载winpcap开发包：https://www.winpcap.org/devel.htm，下载到任意目录，解压即可
+* 下载winpcap4.1.3：https://www.winpcap.org/install/default.htm，<br>安装程序放到任意目录下，运行该安装程序即可  
+* 下载winpcap开发包：https://www.winpcap.org/devel.htm，<br>下载到任意目录，解压即可
 ##### 2. clion中配置
 * 打开clion,新建一个c project `testclion1`(你可以任意命名，但要保证工程路径以及工程名不含中文)
 * 将下载的的Winpcap开发包文件夹`WpdPack`中的`Include`和`Lib`文件夹复制到工程目录下（为了后面方便指定路径，你也可以不进行这一步，而在后面的CMakeLists.txt的配置中使用绝对路径）
